@@ -1,3 +1,4 @@
 *.h5p
 extractor.py
 template.html
+update_paths.py
