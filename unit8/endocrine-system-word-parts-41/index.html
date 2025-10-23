@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Language: Abdominal Quadrant Regions</title>
+    <script src="/h5p-player/main.bundle.js" charset="UTF-8"></script>
+</head>
+
+<body>
+    <div id="h5p-container"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          console.log("Initializing H5P content...");
+            const el = document.getElementById('h5p-container');
+            const options = {
+                h5pJsonPath: '/unit8/endocrine-system-word-parts-41', // Path to the extracted H5P content
+                frameJs: '/h5p-player/frame.bundle.js', // Path to player's frame.bundle.js
+                frameCss: '/h5p-player/styles/h5p.css', // Path to player's h5p.css
+            };
+            new H5PStandalone.H5P(el, options);
+        });
+    </script>
+</body>
+
+</html>
